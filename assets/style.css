@@ -19,9 +19,26 @@ header {
     font-size: 20px;
 }
 
-.bg-experience {
-    background-color: #ff16f1;
+.carousel-indicators {
+    top: 150px;
 }
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #080a5e;
+}
+
+.carousel-style {
+    background-color: #080a5e;
+    padding-bottom: 70px;
+    }
+
+.work-title {
+    color: #ff16f1;
+}
+
 
 @media (max-width: 768px) {
     header {
@@ -34,7 +51,7 @@ header {
 
     header h2 {
         font-size: 20px;
-        background-color: #468b6c;
+        background-color: #ff16f1;
         color: #ffffff;
     }
 
@@ -49,14 +66,25 @@ header {
         }
 
     .title-carousel {
-        border-bottom: 3px solid #ff16f1;
+        border-bottom: 3px solid #ffffff;
         padding-bottom: 15px;
-        color: #ff16f1
+        color: #ffffff;
     }  
 
     .carousel-text {
         color: #ffffff;
-        font-size: 13px;
+        font-size: 15px;
+    }
+
+    .carousel-indicators {
+        top: 150px;
+    }
+    
+    .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #ffffff;
     }
 }
     
@@ -72,7 +100,7 @@ header {
 
     header h2 {
         font-size: 50px;
-        background-color: #468b6c;
+        background-color: #ff16f1;
     }
 
     section h2 {
@@ -86,13 +114,24 @@ header {
         }
     
     .title-carousel {
-        border-bottom: 6px solid #ff16f1;
+        border-bottom: 6px solid #ffffff;
         padding-bottom: 20px;
-        color: #ff16f1
+        color: #ffffff;
     }  
 
     .carousel-text {
         color: #ffffff;
         font-size: 30px;
+    }
+
+    .carousel-indicators {
+        top: 350px;
+    }
+    
+    .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #FFFFFF;
     }
 }
