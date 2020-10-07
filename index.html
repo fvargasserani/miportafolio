@@ -18,33 +18,73 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand font-weight-bold font-italic" href="#">MARÍA FRANCISCA</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-color">
+        <a class="font-weight-bold font-italic border-color navbar-logo" href="#">/* MARÍA FRANCISCA */</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Sobre mí <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white font-weight-light" href="#">SOBRE MÍ <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Experiencia</a>
+                    <a class="nav-link text-white font-weight-light" href="#">EXPERIENCIA</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Trabajos</a>
+                    <a class="nav-link text-white font-weight-light" href="#">ESTUDIOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link text-white font-weight-light" href="#">TRABAJOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white font-weight-light" href="#">CONTACTO</a>
                 </li>
                 </ul>
             </div>
     </nav>
 
     <header class="text-center text-white">
-        <H1 class="font-weight-light display-2">YO SOY</H1>
-        <H1 class="font-weight-bold font-italic border-top border-light d-inline display-4">MARIA FRANCISCA</H1>
+        <div class="container pb-4">
+            <h1 class="font-weight-bold font-italic d-inline-flex my-3">YO SOY</h1><br>
+            <h2 class="font-weight-bold font-italic d-inline py-2"> /* MARÍA FRANCISCA */</h2>
+        </div>
     </header>
+
+    <section class="text-center mt-3">
+        <h2 class="font-weight-bold title-carousel d-inline">MI EXPERIENCIA</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel-02.png" class="d-block img-size mx-auto" alt="UDD">
+                <div class="carousel-text">
+                    <p class="font-weight-bold d-inline bg-experience">SUBDIRECTORA DE RESPONSABILIDAD PÚBLICA</p><br>
+                    <p class="d-inline bg-experience">DIC 2014 - ACTUALIDAD</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel-01.png" class="d-block img-size mx-auto" alt="Capitaria">
+                <div class="carousel-text">
+                <p class="font-weight-bold d-inline bg-experience">EJECUTIVA DE INVERSIONES</p><br>
+                <p class="d-inline bg-experience">ABR 2014 - SEP 2014</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
