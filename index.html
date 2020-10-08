@@ -23,19 +23,19 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse navbar-text" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-white font-weight-light" href="#">SOBRE MÍ <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white font-weight-bold" href="#">SOBRE MÍ <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white font-weight-light" href="#">EXPERIENCIA</a>
+                    <a class="nav-link text-white font-weight-bold" href="#">EXPERIENCIA</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white font-weight-light" href="#">TRABAJOS</a>
+                    <a class="nav-link text-white font-weight-bold" href="#">TRABAJOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white font-weight-light" href="#">CONTACTO</a>
+                    <a class="nav-link text-white font-weight-bold" href="#">CONTACTO</a>
                 </li>
                 </ul>
             </div>
@@ -43,13 +43,22 @@
 
     <header class="text-center text-white">
         <div class="container pb-5">
-            <h1 class="font-weight-bold font-italic d-inline-flex my-3">YO SOY</h1><br>
-            <h2 class="font-weight-bold font-italic d-inline py-2"> /* MARÍA FRANCISCA */</h2>
+            <h1 class="font-weight-bold font-italic d-inline-flex my-2">YO SOY</h1><br>
+            <h2 class="font-weight-bold font-italic d-inline"> /* MARÍA FRANCISCA */</h2>
         </div>
     </header>
 
-    <section class="text-center carousel-style pt-5">
-        <h2 class="font-weight-bold title-carousel d-inline">MI EXPERIENCIA</h2>
+    <section class="container-flex presentation-text d-none d-xs-none d-sm-none d-md-block">
+        <p class="text-center font-italic">Ingeniera Comercial UDD, titulada con distinción, y Coach Ontológico de Newfield Network. Estudiante de Desarrollo Full Stack en Desafío Latam. Experiencia en gestión de proyectos de innovación, emprendimiento y responsabilidad pública en el ámbito universitario. Change Leader de AshokaU. Docente y tutora de programas de emprendimiento, innovación y voluntariado. Manejo de inglés e italiano nivel avanzado. </p>
+        <div class="row pt-5">
+            <p class="col-6 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+            <p class="col-6 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+        </div>
+        
+    </section>
+
+    <section class="text-center carousel-style">
+        <h2 class="font-weight-bold title-carousel">MI EXPERIENCIA</h2>
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -59,13 +68,13 @@
               <div class="carousel-item active">
                 <a href="https://healthycorner.cl" target="_blank"><img src="assets/img/carousel-01.png" class="d-block img-size mx-auto" alt="Healthy Corner"></a>
                 <div class="carousel-text">
-                    <p class="font-weight-light">2020 - ACTUALMENTE</p>
+                    <p>2020 - ACTUALMENTE</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <a href="https://udd.cl" target="_blank"><img src="assets/img/carousel-02.png" class="d-block img-size mx-auto" alt="UDD"></a>
                 <div class="carousel-text">
-                    <p class="font-weight-light">2014 - ACTUALMENTE</p>
+                    <p>2014 - ACTUALMENTE</p>
                 </div>
               </div>
             </div>
@@ -80,71 +89,71 @@
           </div>
     </section>
 
-    <section class="container text-center py-5 w-75">
+    <section class="container-fluid text-center py-5 bg-work">
         <div class="mb-5">
-            <h2 class="font-weight-bold work-title text-center pt-5 work-border d-inline pb-3">MIS ÚLTIMOS TRABAJOS</h2>
+            <h2 class="font-weight-bold text-white text-center pt-2 work-title">MIS ÚLTIMOS TRABAJOS</h2>
         </div>
-        <div class="card-deck pt-4 card-color">
+        <div class="card-deck pt-2 card-color w-75 m-auto">
             <div class="card">
             <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet&coffee">
             <div class="card-body">
-                <h5 class="card-title">MEET & COFFEE</h5>
-                <p class="card-text">This is a longer card with supporting text below.</p>
+                <h5 class="card-title font-weight-bold">MEET & COFFEE</h5>
+                <p class="card-text font-italic">This is a longer card with supporting text below.</p>
             </div>
             </div>
             <div class="card">
             <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana_Page">
             <div class="card-body">
-                <h5 class="card-title">IGUANA PAGE</h5>
-                <p class="card-text">This card has supporting text below.</p>
+                <h5 class="card-title font-weight-bold">IGUANA PAGE</h5>
+                <p class="card-text font-italic">This card has supporting text below.</p>
             </div>
             </div>
             <div class="card">
             <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata">
             <div class="card-body">
-                <h5 class="card-title">SURICATA</h5>
-                <p class="card-text">This is a wider card with supporting text below.</p>
+                <h5 class="card-title font-weight-bold">SURICATA</h5>
+                <p class="card-text font-italic">This is a wider card with supporting text below.</p>
             </div>
             </div>
         </div>
-        <div class="card-deck pt-4 card-color">
+        <div class="card-deck card-top card-color w-75 m-auto">
             <div class="card">
             <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon">
             <div class="card-body">
-                <h5 class="card-title">CUPPON</h5>
-                <p class="card-text">This is a longer card with supporting text below.</p>
+                <h5 class="card-title font-weight-bold">CUPPON</h5>
+                <p class="card-text font-italic">This is a longer card with supporting text below.</p>
             </div>
             </div>
             <div class="card">
             <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
             <div class="card-body">
-                <h5 class="card-title">RICOMIDA</h5>
-                <p class="card-text">This card has supporting text below.</p>
+                <h5 class="card-title font-weight-bold">RICOMIDA</h5>
+                <p class="card-text font-italic">This card has supporting text below.</p>
             </div>
             </div>
             <div class="card">
             <img src="assets/img/dmark.png" class="card-img-top" alt="DMark">
             <div class="card-body">
-                <h5 class="card-title">DMARK</h5>
-                <p class="card-text">This is a wider card with supporting text below.</p>
+                <h5 class="card-title font-weight-bold">DMARK</h5>
+                <p class="card-text font-italic">This is a wider card with supporting text below.</p>
             </div>
             </div>
         </div>
     </section>
 
     <section class="bg-contact container-fluid text-center py-5">
-        <h2 class="font-weight-bold d-inline contact-title">CONTACTO</h2>
-        <p class="contact-text font-weight-light font-italic pt-5 pb-3">¿QUIERES CONOCER MÁS DE MÍ?</p>
-        <a class="typeform-share button" href="https://form.typeform.com/to/bkX2rGSV" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#080A5E;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:12px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Contáctame </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        <h2 class="font-weight-bold font-italic d-inline-block contact-title"> < CONTACTO > </h2><br>
+        <p class="contact-text font-italic mt-3 mb-4 d-inline-block">¿QUIERES CONOCER MÁS DE MÍ?</p><br>
+        <a class="typeform-share button" href="https://form.typeform.com/to/bkX2rGSV" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#080A5E;color:white;cursor:pointer;font-family:Roboto-condensed,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:12px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">MENSAJE</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </section>
 
     <footer class="footer-style text-white py-5">
-        <h2 class="font-weight-bold font-italic pl-3 navbar-logo d-inline">/* MARÍA FRANCISCA */</h2>
-        <div class="footer-icons d-inline">
-            <a href="https://github.com/fvargasserani" target="_blank"><i class="fab fa-github fa-3x ml-3"></i></a>
-            <a href="https://www.linkedin.com/in/fvargasserani/" target="_blank"><i class="fab fa-linkedin-in fa-3x ml-3"></i></a>
-            <a href="https://instagram.com/fvargasserani" target="_blank"><i class="fab fa-instagram fa-3x ml-3"></i></a>
-            <a href="https://facebook.com/fvargasserani" target="_blank"><i class="fab fa-facebook fa-3x ml-3"></i></a>
+        <h2 class="font-weight-bold font-italic navbar-logo">/* MARÍA FRANCISCA */</h2>
+        <div class="footer-icons">
+            <a href="https://github.com/fvargasserani" target="_blank"><i class="fab fa-github ml-3"></i></a>
+            <a href="https://www.linkedin.com/in/fvargasserani/" target="_blank"><i class="fab fa-linkedin-in ml-3"></i></a>
+            <a href="https://instagram.com/fvargasserani" target="_blank"><i class="fab fa-instagram ml-3"></i></a>
+            <a href="https://facebook.com/fvargasserani" target="_blank"><i class="fab fa-facebook ml-3"></i></a>
         </div>
     </footer>
 

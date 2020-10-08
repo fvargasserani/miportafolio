@@ -14,11 +14,6 @@ header {
     background-color: #080a5e;
 }
 
-.navbar-logo {
-    color: #ffffff;
-    font-size: 20px;
-}
-
 .carousel-indicators {
     top: 150px;
 }
@@ -31,20 +26,16 @@ header {
 }
 
 .carousel-style {
-    background-color: #080a5e;
+    background-color: #ffffff;
     padding-bottom: 70px;
     }
 
-.work-title {
-    color: #ff16f1;
+.bg-work {
+    background-color: #080a5e;
 }
 
 .card-color {
-    color: #ff16f1;
-}
-
-.bg-contact {
-    background-color: #ff16f1;
+    color: #080a5e;
 }
 
 .footer-style {
@@ -52,72 +43,87 @@ header {
     height: 200px;
 }
 
+.presentation-text {
+    margin: 100px;
+    font-size: 20px;
+    color: #080a5e;
+}
+
 
 @media (max-width: 768px) {
+  
+    .navbar-logo {
+    color: #ffffff;
+    font-size: 20px;
+    }
+
     header {
-        padding-top: 200px;
+        padding-top: 300px;
     }
 
     header h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     header h2 {
-        font-size: 20px;
+        font-size: 28px;
         background-color: #ff16f1;
         color: #ffffff;
     }
 
-    section h2 {
-        font-size: 20px;
-    }
-
     .img-size {
-        height: 80px;
-        width: 150px;
-        margin-top: 20px;
+        height: 180px;
+        width: 290px;
         }
 
     .title-carousel {
-        border-bottom: 2px solid #ffffff;
-        padding-bottom: 15px;
-        color: #ffffff;
+        border-bottom: 1x solid #ff16f1;
+        padding-top: 50px;
+        color: #ff16f1;
+        font-size: 35px;
     }  
 
-    .work-border {
-        border-bottom: 2px solid #ff16f1;
-    }
-
-    .contact-title {
-        border-bottom: 2px solid #ffffff;
-        color: #ffffff;
-    }
-
     .carousel-text {
-        color: #ffffff;
-        font-size: 12px;
+        color: #ff16f1;
+        font-size: 20px;
+        padding-bottom: 30px;
     }
 
     .carousel-indicators {
-        top: 180px;
+        top: 270px;
     }
     
     .carousel-indicators li {
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        background-color: #ffffff;
+        background-color: #ff16f1;
+    }
+
+    .work-title {
+        font-size: 35px;
+    }
+
+    .contact-title {
+        color: #ffffff;
+        background-color: #ff16f1;
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .contact-text {
-        color: #ffffff;
-        font-size: 15px;
+        color: #ff16f1;
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 
     .footer-icons a {
         color: #ffffff;
         margin-right: 6px;
         margin-left: 6px;
+        font-size: 30px;
     }
 
     .footer-icons {
@@ -128,13 +134,25 @@ header {
     footer h2 {
         text-align: center;
         display: block;
+        padding-bottom: 20px;
     }
 }
     
 
 @media (min-width: 769px) {
+    
+    .navbar-logo {
+        padding-left: 100px;
+        color: #ffffff;
+        font-size: 30px;
+    }
+
+    .navbar-text {
+        padding-right: 80px;
+    }
+    
     header {
-        padding-top: 570px;
+        padding-top: 600px;
     }
 
     header h1 {
@@ -146,58 +164,73 @@ header {
         background-color: #ff16f1;
     }
 
-    section h2 {
-        font-size: 50px;
-        }
-
     .img-size {
-        height: 150px;
-        width: 300px;
-        margin-top: 25px;
+        height: 320px;
+        width: 520px;
         }
     
     .title-carousel {
-        border-bottom: 5px solid #ffffff;
-        padding-bottom: 20px;
-        color: #ffffff;
+        color: #ff16f1;
+        font-size: 50px;
     } 
-    
-    .work-border {
-        border-bottom: 5px solid #ff16f1;
-    }
 
     .contact-title {
         border-bottom: 5px solid #ffffff;
         color: #ffffff;
+        background-color: #ff16f1;
     }
 
     .carousel-text {
-        color: #ffffff;
-        font-size: 20px;
+        color: #ff16f1;
+        font-size: 30px;
+        margin-bottom: 50px;
     }
 
     .carousel-indicators {
-        top: 250px;
+        top: 400px;
     }
     
     .carousel-indicators li {
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        background-color: #FFFFFF;
+        background-color: #ff16f1;
     }
 
-    .contact-text {
+    .work-title {
+        font-size: 50px;
+    }
+
+    .card-top {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .contact-title {
         color: #ffffff;
+        background-color: #ff16f1;
+        font-size: 50px;
+    }
+    
+    .contact-text {
+        color: #ff16f1;
         font-size: 30px;
     }
 
     .footer-icons a {
         color: #ffffff;
+        font-size: 40px;
     }
 
     .footer-icons {
         float: right;
         padding-right: 100px;
+        padding-top: 15px;
+        display: inline-block;
+    }
+
+    footer h2 {
+        padding-top: 35px;
+        display: inline-block;
     }
 }
