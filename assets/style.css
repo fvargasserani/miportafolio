@@ -14,17 +14,6 @@ header {
   background-color: #080a5e;
 }
 
-.carousel-indicators {
-  top: 150px;
-}
-
-.carousel-indicators li {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #080a5e;
-}
-
 .bg-work {
   background-color: #080a5e;
 }
@@ -69,32 +58,27 @@ header {
     width: 290px;
   }
 
-  .carousel-style {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  .experience-border {
+    border-bottom: 2px solid #ff16f1;
+    margin-top: 50px;
+    text-align: center;
   }
 
-  .title-carousel {
+  .experience-style {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .experience-title {
     color: #ffffff;
     background-color: #ff16f1;
-    font-size: 35px;
+    font-size: 28px;
   }
 
-  .carousel-text {
+  .experience-text {
     color: #ff16f1;
     font-size: 20px;
     padding-bottom: 40px;
-  }
-
-  .carousel-indicators {
-    top: 270px;
-  }
-
-  .carousel-indicators li {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #ff16f1;
   }
 
   .work-container {
@@ -103,15 +87,15 @@ header {
   }
 
   .work-title {
-    background-color: #ffffff;
-    color: #080a5e;
-    font-size: 35px;
+    background-color: #ff16f1;
+    color: #ffffff;
+    font-size: 28px;
   }
 
   .contact-title {
     color: #ffffff;
     background-color: #ff16f1;
-    font-size: 35px;
+    font-size: 28px;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -166,9 +150,10 @@ header {
     background-color: #ff16f1;
   }
 
-  .border-color {
-    border-bottom: 2px solid #080a5e;
+  .experience-border {
+    border-bottom: 2px solid #ff16f1;
     margin-top: 80px;
+    text-align: center;
   }
 
   .img-size {
@@ -176,7 +161,11 @@ header {
     width: 520px;
   }
 
-  .title-carousel {
+  .experience-style {
+    padding-bottom: 70px;
+  }
+
+  .experience-title {
     color: #ffffff;
     background-color: #ff16f1;
     font-size: 50px;
@@ -188,21 +177,9 @@ header {
     margin-bottom: 80px;
   }
 
-  .carousel-text {
+  .experience-text {
     color: #ff16f1;
     font-size: 30px;
-    margin-bottom: 130px;
-  }
-
-  .carousel-indicators {
-    top: 430px;
-  }
-
-  .carousel-indicators li {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #ff16f1;
   }
 
   .work-container {
@@ -211,8 +188,8 @@ header {
   }
 
   .work-title {
-    background-color: #ffffff;
-    color: #080a5e;
+    background-color: #ff16f1;
+    color: #ffffff;
     font-size: 50px;
   }
 
