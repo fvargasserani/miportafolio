@@ -1,236 +1,257 @@
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #ffffff;
 }
 
 header {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('img/Fran2.JPG');
-    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/Fran2.JPG");
+  background-position: center;
 }
 
 .bg-color {
-    background-color: #080a5e;
+  background-color: #080a5e;
 }
 
 .carousel-indicators {
-    top: 150px;
+  top: 150px;
 }
 
 .carousel-indicators li {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #080a5e;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #080a5e;
 }
 
-.carousel-style {
-    background-color: #ffffff;
-    padding-bottom: 70px;
-    }
-
 .bg-work {
-    background-color: #080a5e;
+  background-color: #080a5e;
 }
 
 .card-color {
-    color: #080a5e;
+  color: #080a5e;
 }
 
 .footer-style {
-    background-color: #080a5e;
-    height: 200px;
+  background-color: #080a5e;
+  height: 200px;
 }
 
 .presentation-text {
-    margin: 100px;
-    font-size: 20px;
-    color: #080a5e;
+  margin: 100px;
+  font-size: 20px;
+  color: #080a5e;
 }
-
 
 @media (max-width: 768px) {
-  
-    .navbar-logo {
+  .navbar-logo {
     color: #ffffff;
     font-size: 20px;
-    }
+  }
 
-    header {
-        padding-top: 300px;
-    }
+  header {
+    padding-top: 300px;
+  }
 
-    header h1 {
-        font-size: 35px;
-    }
+  header h1 {
+    font-size: 35px;
+  }
 
-    header h2 {
-        font-size: 28px;
-        background-color: #ff16f1;
-        color: #ffffff;
-    }
+  header h2 {
+    font-size: 28px;
+    background-color: #ff16f1;
+    color: #ffffff;
+  }
 
-    .img-size {
-        height: 180px;
-        width: 290px;
-        }
+  .img-size {
+    height: 180px;
+    width: 290px;
+  }
 
-    .title-carousel {
-        border-bottom: 1x solid #ff16f1;
-        padding-top: 50px;
-        color: #ff16f1;
-        font-size: 35px;
-    }  
+  .carousel-style {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-    .carousel-text {
-        color: #ff16f1;
-        font-size: 20px;
-        padding-bottom: 30px;
-    }
+  .title-carousel {
+    color: #ffffff;
+    background-color: #ff16f1;
+    font-size: 35px;
+  }
 
-    .carousel-indicators {
-        top: 270px;
-    }
-    
-    .carousel-indicators li {
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: #ff16f1;
-    }
+  .carousel-text {
+    color: #ff16f1;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
 
-    .work-title {
-        font-size: 35px;
-    }
+  .carousel-indicators {
+    top: 270px;
+  }
 
-    .contact-title {
-        color: #ffffff;
-        background-color: #ff16f1;
-        font-size: 35px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff16f1;
+  }
 
-    .contact-text {
-        color: #ff16f1;
-        font-size: 18px;
-        padding-top: 30px;
-        padding-bottom: 50px;
-    }
+  .work-container {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
 
-    .footer-icons a {
-        color: #ffffff;
-        margin-right: 6px;
-        margin-left: 6px;
-        font-size: 30px;
-    }
+  .work-title {
+    background-color: #ffffff;
+    color: #080a5e;
+    font-size: 35px;
+  }
 
-    .footer-icons {
-        text-align: center;
-        display: block;
-    }
+  .contact-title {
+    color: #ffffff;
+    background-color: #ff16f1;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
-    footer h2 {
-        text-align: center;
-        display: block;
-        padding-bottom: 20px;
-    }
+  .contact-text {
+    color: #ff16f1;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .footer-icons a {
+    color: #ffffff;
+    margin-right: 6px;
+    margin-left: 6px;
+    font-size: 30px;
+  }
+
+  .footer-icons {
+    text-align: center;
+    display: block;
+  }
+
+  footer h2 {
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+  }
 }
-    
 
 @media (min-width: 769px) {
-    
-    .navbar-logo {
-        padding-left: 100px;
-        color: #ffffff;
-        font-size: 30px;
-    }
+  .navbar-logo {
+    padding-left: 100px;
+    color: #ffffff;
+    font-size: 30px;
+  }
 
-    .navbar-text {
-        padding-right: 80px;
-    }
-    
-    header {
-        padding-top: 600px;
-    }
+  .navbar-text {
+    padding-right: 80px;
+  }
 
-    header h1 {
-        font-size: 80px;
-    }
+  header {
+    padding-top: 600px;
+  }
 
-    header h2 {
-        font-size: 50px;
-        background-color: #ff16f1;
-    }
+  header h1 {
+    font-size: 80px;
+  }
 
-    .img-size {
-        height: 320px;
-        width: 520px;
-        }
-    
-    .title-carousel {
-        color: #ff16f1;
-        font-size: 50px;
-    } 
+  header h2 {
+    font-size: 50px;
+    background-color: #ff16f1;
+  }
 
-    .contact-title {
-        border-bottom: 5px solid #ffffff;
-        color: #ffffff;
-        background-color: #ff16f1;
-    }
+  .border-color {
+    border-bottom: 2px solid #080a5e;
+    margin-top: 80px;
+  }
 
-    .carousel-text {
-        color: #ff16f1;
-        font-size: 30px;
-        margin-bottom: 50px;
-    }
+  .img-size {
+    height: 320px;
+    width: 520px;
+  }
 
-    .carousel-indicators {
-        top: 400px;
-    }
-    
-    .carousel-indicators li {
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: #ff16f1;
-    }
+  .title-carousel {
+    color: #ffffff;
+    background-color: #ff16f1;
+    font-size: 50px;
+  }
 
-    .work-title {
-        font-size: 50px;
-    }
+  .contact-title {
+    color: #ffffff;
+    background-color: #ff16f1;
+    margin-bottom: 80px;
+  }
 
-    .card-top {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    
-    .contact-title {
-        color: #ffffff;
-        background-color: #ff16f1;
-        font-size: 50px;
-    }
-    
-    .contact-text {
-        color: #ff16f1;
-        font-size: 30px;
-    }
+  .carousel-text {
+    color: #ff16f1;
+    font-size: 30px;
+    margin-bottom: 130px;
+  }
 
-    .footer-icons a {
-        color: #ffffff;
-        font-size: 40px;
-    }
+  .carousel-indicators {
+    top: 430px;
+  }
 
-    .footer-icons {
-        float: right;
-        padding-right: 100px;
-        padding-top: 15px;
-        display: inline-block;
-    }
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff16f1;
+  }
 
-    footer h2 {
-        padding-top: 35px;
-        display: inline-block;
-    }
+  .work-container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .work-title {
+    background-color: #ffffff;
+    color: #080a5e;
+    font-size: 50px;
+  }
+
+  .card-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .contact-title {
+    color: #ffffff;
+    background-color: #ff16f1;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  .contact-text {
+    color: #ff16f1;
+    font-size: 30px;
+  }
+
+  .contact-button {
+    margin-bottom: 50px;
+    margin-top: 70px;
+  }
+
+  .footer-icons a {
+    color: #ffffff;
+    font-size: 40px;
+  }
+
+  .footer-icons {
+    float: right;
+    padding-right: 100px;
+    padding-top: 15px;
+    display: inline-block;
+  }
+
+  footer h2 {
+    padding-top: 35px;
+    display: inline-block;
+  }
 }
