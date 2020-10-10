@@ -3,13 +3,6 @@ body {
   background-color: #ffffff;
 }
 
-header {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("img/Fran2.JPG");
-  background-position: center;
-}
-
 .bg-color {
   background-color: #080a5e;
 }
@@ -33,24 +26,31 @@ header {
   color: #080a5e;
 }
 
+.btn-style {
+  background-color: #ff16f1;
+  color: #ffffff;
+}
+
 @media (max-width: 768px) {
   .navbar-logo {
     color: #ffffff;
     font-size: 20px;
   }
 
-  header {
-    padding-top: 300px;
+  header h5 {
+    font-size: 30px;
+    color: #ffffff;
   }
 
-  header h1 {
-    font-size: 35px;
-  }
-
-  header h2 {
-    font-size: 28px;
+  header p {
+    font-size: 22px;
     background-color: #ff16f1;
     color: #ffffff;
+  }
+
+  .carousel-size {
+    height: 360px;
+    width: 540px;
   }
 
   .img-size {
@@ -71,7 +71,7 @@ header {
 
   .experience-title {
     color: #ffffff;
-    background-color: #ff16f1;
+    background-color: #080a5e;
     font-size: 28px;
   }
 
@@ -137,28 +137,24 @@ header {
     padding-right: 80px;
   }
 
-  header {
-    padding-top: 600px;
+  .carousel-size {
+    height: 950px;
+    width: 1440px;
+    margin-top: -120px;
   }
 
-  header h1 {
+  header h5 {
     font-size: 80px;
   }
 
-  header h2 {
+  header p {
     font-size: 50px;
     background-color: #ff16f1;
   }
 
-  .experience-border {
-    border-bottom: 2px solid #ff16f1;
-    margin-top: 80px;
-    text-align: center;
-  }
-
   .img-size {
-    height: 320px;
-    width: 520px;
+    height: 270px;
+    width: 460px;
   }
 
   .experience-style {
@@ -167,7 +163,7 @@ header {
 
   .experience-title {
     color: #ffffff;
-    background-color: #ff16f1;
+    background-color: #080a5e;
     font-size: 50px;
   }
 
